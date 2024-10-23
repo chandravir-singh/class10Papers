@@ -24,6 +24,16 @@ After selecting a subject, users can choose to download Paper 1 or Paper 2 by cl
 
 ![Screenshot_2024-10-23-23-36-11-844_com chandravir class10app](https://github.com/user-attachments/assets/2cb0bac6-5500-4710-9b7b-b2b41f17e5aa)
 
+Detailed Explanation:
+Home Screen: The first screen users see lists the available subjects (e.g., Mathematics, Science, English). Clicking a subject takes the user to the download screen.
+
+Download Screen: After selecting a subject, users are presented with two options: download Paper 1 or Paper 2. Clicking a button triggers a download from Google Drive, allowing the user to save the paper for offline access.
+
+Customization: The app allows developers or admins to easily change the subjects or update the Google Drive links by editing a simple map in the code, making it adaptable for other subjects or exam papers.
+
+APK Availability: The APK file is available for direct download, allowing users to quickly install the app on their Android devices without needing to build it in Android Studio.
+
+https://drive.google.com/file/d/1NuiqrYrqnd8tHSn3cb9Xpm1zKXGFD3Ie/view?usp=sharing
 
 Installation
 Step 1: Clone the Repository
