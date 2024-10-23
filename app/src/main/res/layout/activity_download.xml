@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity.DownloadActivity">
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/paper" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_centerInParent="true"
+        android:layout_height="wrap_content"
+        android:background="@drawable/round_border"
+        android:layout_marginHorizontal="20dp"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/subjectTextView"
+            android:layout_centerHorizontal="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Subject"
+            android:textSize="20sp"/>
+
+        <Button
+            android:id="@+id/paper1Button"
+            android:layout_width="wrap_content"
+            android:layout_below="@id/subjectTextView"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:layout_height="wrap_content"
+            android:text="Download Paper 1"/>
+
+        <Button
+            android:id="@+id/paper2Button"
+            android:layout_below="@id/paper1Button"
+            android:layout_marginTop="10dp"
+            android:layout_centerHorizontal="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:text="Download Paper 2"/>
+    </RelativeLayout>
+
+
+</RelativeLayout>

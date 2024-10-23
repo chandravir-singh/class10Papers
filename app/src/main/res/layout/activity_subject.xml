@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity.SubjectActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:id="@+id/math"
+            android:layout_width="180dp"
+            android:layout_height="150dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="25dp"
+            android:background="@drawable/round_border"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <ImageView
+                android:id="@+id/imgMath"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_centerHorizontal="true"
+                android:src="@drawable/maths" />
+
+            <Button
+                android:id="@+id/btnMath"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/imgMath"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="10dp"
+                android:text="Mathematics" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/english"
+            android:layout_width="180dp"
+            android:layout_height="150dp"
+            android:layout_below="@id/math"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="25dp"
+            android:background="@drawable/round_border"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <ImageView
+                android:id="@+id/imgEnglish"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_centerHorizontal="true"
+                android:src="@drawable/eng" />
+
+            <Button
+                android:id="@+id/btnEnglish"
+                android:layout_centerHorizontal="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/imgEnglish"
+                android:layout_marginTop="10dp"
+                android:text="English" />
+
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:id="@+id/science"
+            android:layout_width="180dp"
+            android:layout_height="150dp"
+            android:layout_below="@id/english"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="25dp"
+            android:background="@drawable/round_border"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <ImageView
+                android:id="@+id/imgScience"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_centerHorizontal="true"
+                android:src="@drawable/science" />
+
+            <Button
+                android:id="@+id/btnScience"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/imgScience"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="10dp"
+                android:text="Science" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/socialScience"
+            android:layout_width="180dp"
+            android:layout_height="150dp"
+            android:layout_below="@id/science"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="25dp"
+            android:background="@drawable/round_border"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <ImageView
+                android:id="@+id/imgSocialScience"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_centerHorizontal="true"
+                android:src="@drawable/social_science" />
+
+            <Button
+                android:id="@+id/btnSocialScience"
+                android:layout_width="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/imgSocialScience"
+                android:layout_marginTop="10dp"
+                android:text="Social Science" />
+
+        </RelativeLayout>
+
+
+    </RelativeLayout>
+
+
+</ScrollView>
